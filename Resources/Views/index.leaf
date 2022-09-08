@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" type="text/css" href="/styles/tailwind.css">
+        <link rel="stylesheet" type="text/css" href="/styles/index.css">
+
+        <script src="https://kit.fontawesome.com/fedd60628e.js" crossorigin="anonymous"></script>
+        <!-- TODO: Remove CDN before production -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-white">
+        <!-- Container with px-20 padding on each side -->
+        <div class="px-8 md:px-16 md:max-w-4xl md:mx-auto">
+            <header class="flex items-center justify-between pt-20 md:pt-24 pb-2 md:pb-0">
+                <div>
+                    <a href="../"><img id="Library" class="h-24" src="/images/dan_hat_logo_2.png" alt="Me :)"></a>
+                </div>
+                <div class="">
+                    <!--<a href="/posts">Posts</a>-->
+                </div>
+            </header>
+            <!-- Body -->
+            <div class="py-8 md:pb-12 md:pt-12">
+                <h1 class="text-2xl md:text-5xl md:mb-2 font-bold leading-snug text-black">I'm Daniel Weatrowski</h1>
+                <h1 class="text-xl md:text-xl leading-snug text-black">a Software Engineer at <a href="https://radiomobile.com" class="text-red-600">RadioMobile, Inc.</a></h1>
+            </div>
+            <!-- Header -->
+            <div class="grid grid-cols-1">
+                <!-- Description -->
+                <div class="py-4">
+                    <!-- TODO: Populate descriptions -->
+                    <p class="text-xl md:text-xg leading-snug pb-8 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="text-xl md:text-xg leading-snug pb-8 text-black">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="text-xl md:text-xl leading-snug text-black">I built this site with <a class="underline"href="https://github.com/danielweatrowski">Vapor</a>, <a class="underline"href="https://github.com/danielweatrowski">Leaf</a>, and <a class="underline"href="https://github.com/danielweatrowski">PostgreSQL</a>. It is written in Swift, styled with TailwindCSS, and hosted on Heroku.</p>
+                </div>
+            </div>
+            <footer>
+                <div class="grid grid-cols-3 md:grid-cols-9 py-4 md:py-12">
+                    <!-- Add Links Here -->
+                    <p class="text-xl md:text-xl text-gray-400 leading-snug"><a href="https://www.linkedin.com/in/daniel-weatrowski-373460155/">LinkedIn</a></p>
+                    <p class="text-xl md:text-xl text-gray-400 leading-snug"><a href="https://twitter.com/weatdevel">Twitter</a></p>
+                    <p class="text-xl md:text-xl text-gray-400 leading-snug"><a href="https://github.com/danielweatrowski">Github</a></p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

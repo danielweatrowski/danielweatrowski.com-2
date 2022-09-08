@@ -1,0 +1,7 @@
+#Library {
+    content: url('/images/dan_hat_logo_2.png');
+}
+
+#Library:hover {
+    content: url('/images/dead_dan_hat_logo_2.png');
+}
